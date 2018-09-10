@@ -13,4 +13,4 @@ Dabei haben wir uns unter anderem Hilfe im Internet gesucht und sind auf ein You
 In der heutigen Dopelstunde haben wir uns zuerst auf einen Projektinhalt geeinigt. Zuvor haben wir uns anhand eines 
 Videos (https://www.youtube.com/watch?v=kSLnwUuE3Xg) inspirieren lassen. Daraufhin haben wir uns erstes (einfach gehaltenes) Spiel programmmiert, mithilfe von Snap.
 
-![bsp starlogtng](image/starlogotng_bsp.jpg "Screenshot von StarLogoTNG")
+![dagobert](https://user-images.githubusercontent.com/42579285/45287593-f162da80-b4e8-11e8-8124-5e35792994a9.png)
