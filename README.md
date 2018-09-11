@@ -19,7 +19,8 @@ Videos (https://www.youtube.com/watch?v=kSLnwUuE3Xg) inspirieren lassen. Daraufh
 ## 10.09.2018 ( Vierte Stunde)
 
 In dieser Stunde haben wir angefange uns Gedanken über die Umsetzung unseres ersten richtigen Proojekts zu machen.
-Wir einigten uns auf das Erstellen eines Memory Spiels. Hierfür legten wir Karten mit je zwei costumes an.
+Wir einigten uns auf das Erstellen eines Memory Spiels. Hierfür legten wir Karten mit je zwei costumes an. Diese habe ich (Teda) zuhause 
+zuende benannt und einheitlich......
 
 ![memory 1](https://user-images.githubusercontent.com/42579285/45362225-94dce980-b5d4-11e8-803c-cadf89b2fd39.png)
 
