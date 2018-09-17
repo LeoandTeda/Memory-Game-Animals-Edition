@@ -29,3 +29,5 @@ zuende benannt und einheitlich......
 In der heutigen Doppelstunde haben wir unsere Projektarbeit weiter geführt. Dabei haben wir in snap uns mit "broadcast" und Variablen beschäftigt und versucht zwei karten zu verbinden und diese, falls beide angeglickt, verschwinden zu lassen.
 
 Dies habe ich (Leo) dann weiter geführt und auch die einzelnen Karten sortiert und richtig geordnet.
+
+![funfte stunde](https://user-images.githubusercontent.com/42579285/45613469-ca675400-ba66-11e8-83f3-09087f8b7d5f.png)
