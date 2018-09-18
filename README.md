@@ -36,3 +36,14 @@ Dies habe ich (Leo) dann weiter geführt und auch die einzelnen Karten sortiert 
 
 Nachdem wir es geschafft haben ein Paar verschwinden zu lassen, haben wir in der heutigen Stunde versucht zwei falsche Karten wieder zurück zum Costume (Karte) zu ändern. Dies ist uns nicht ganz geglückt, so haben wir es nur geschafft eine Karte wieder zum aufgedeckten Zustand zu ändern.
 Zuhause habe ich (Teda) unsere Ergebnisse auf alle Karten übertragen.
+
+
+## 18.09.2018
+
+In der heutigen Doppelstunde haben wir einen großen Schritt in die richtige Richtung gemacht!!
+Wir haben unseren bisherigen Plan überarbeitet und es geschafft zwei falsche Kartrenkombinationen wieder zur Ursprungs Costume zu setzen. Dieses system müssen wir nun bei allen Karten anwenden. damit hätten wir das rohe Spiel sozusagen geschafft.
+
+![sechste stunde](https://user-images.githubusercontent.com/42579285/45692880-2233b700-bb5c-11e8-9cca-ed1c463466ac.png)
+
+![sechste stunde bam](https://user-images.githubusercontent.com/42579285/45692916-32e42d00-bb5c-11e8-8b72-8718aed458cc.png)
+
