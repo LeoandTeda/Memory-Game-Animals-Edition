@@ -31,3 +31,8 @@ In der heutigen Doppelstunde haben wir unsere Projektarbeit weiter geführt. Dab
 Dies habe ich (Leo) dann weiter geführt und auch die einzelnen Karten sortiert und richtig geordnet.
 
 ![funfte stunde](https://user-images.githubusercontent.com/42579285/45613469-ca675400-ba66-11e8-83f3-09087f8b7d5f.png)
+
+## 17.09.2018 (sechste Stunde)
+
+Nachdem wir es geschafft haben ein Paar verschwinden zu lassen, haben wir in der heutigen Stunde versucht zwei falsche Karten wieder zurück zum Costume (Karte) zu ändern. Dies ist uns nicht ganz geglückt, so haben wir es nur geschafft eine Karte wieder zum aufgedeckten Zustand zu ändern.
+
