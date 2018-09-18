@@ -38,10 +38,10 @@ Nachdem wir es geschafft haben ein Paar verschwinden zu lassen, haben wir in der
 Zuhause habe ich (Teda) unsere Ergebnisse auf alle Karten übertragen.
 
 
-## 18.09.2018
+## 18.09.2018 (siebte Stunde)
 
 In der heutigen Doppelstunde haben wir einen großen Schritt in die richtige Richtung gemacht!!
-Wir haben unseren bisherigen Plan überarbeitet und es geschafft zwei falsche Kartrenkombinationen wieder zur Ursprungs Costume zu setzen. Dieses system müssen wir nun bei allen Karten anwenden. damit hätten wir das rohe Spiel sozusagen geschafft.
+Wir haben unseren bisherigen Plan überarbeitet und es geschafft zwei falsche Kartenkombinationen wieder zur Ursprungs Costume zu setzen. Dieses system müssen wir nun bei allen Karten anwenden. damit hätten wir das rohe Spiel sozusagen geschafft.
 
 ![sechste stunde](https://user-images.githubusercontent.com/42579285/45692880-2233b700-bb5c-11e8-9cca-ed1c463466ac.png)
 
