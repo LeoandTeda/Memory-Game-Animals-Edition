@@ -35,4 +35,4 @@ Dies habe ich (Leo) dann weiter geführt und auch die einzelnen Karten sortiert 
 ## 17.09.2018 (sechste Stunde)
 
 Nachdem wir es geschafft haben ein Paar verschwinden zu lassen, haben wir in der heutigen Stunde versucht zwei falsche Karten wieder zurück zum Costume (Karte) zu ändern. Dies ist uns nicht ganz geglückt, so haben wir es nur geschafft eine Karte wieder zum aufgedeckten Zustand zu ändern.
-
+Zuhause habe ich (Teda) unsere Ergebnisse auf alle Karten übertragen.
