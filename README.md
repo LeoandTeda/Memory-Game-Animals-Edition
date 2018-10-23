@@ -47,3 +47,11 @@ Wir haben unseren bisherigen Plan überarbeitet und es geschafft zwei falsche Ka
 
 ![sechste stunde bam](https://user-images.githubusercontent.com/42579285/45692916-32e42d00-bb5c-11e8-8b72-8718aed458cc.png)
 
+
+## 22.09.2018 (achte Stunde)
+
+Die erste Informatik Stunde nach den Herbst Ferien habe ich (Leo), damit verbracht einen Plan zuerstellen, was wir noch bis zur Abgabe des Projektes schaffen müssen und könnten. Dabei habe ich mich entschieden zuerst ein Punktesystem für das Memory-Spiel zu programmieren. Daran habe ich mich auch in der heutigen Stunde gesetzt und werde dies in der nächsten Doppelstunde fortführen.
+
+![image](https://user-images.githubusercontent.com/42579285/47363296-b30b2e80-d6d6-11e8-818e-fe43d689deca.png)
+
+
