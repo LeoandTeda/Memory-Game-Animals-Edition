@@ -57,3 +57,17 @@ Die erste Informatik Stunde nach den Herbst Ferien habe ich (Leo), damit verbrac
 
 ## 23.10.2018 (neunte Stunde)
 
+Die heutige Doppelstunde habe ich (Leo) damit verbracht, wie geplant das Punktesystem für zwei Karten zum laufen zu bringen. Außerdem habe einen "Victory-Screen" hintzugefügt, welcher am Ende des Spiel erscheint, wenn alle Karten verschwunden sind. 
+
+
+## 29.10.2018 (zehnte Stunde)
+
+In dieser Stunde brachte Leo mich zuerst auf den neusten Stand und wir einigten uns vorläufig einen Einzelspieler modus zu erstellen und änderten das zuvor herausgearbeitete Punktesystem daraufhin ab.
+Außerdem haben wir eine Figur hinzugefügt, die je nachdem, ob ein Paar oder zwei verschiedene Karten aufgedeckt werden, unterschiedliche Emotionen zeigt.
+
+![image](https://user-images.githubusercontent.com/42579285/47725411-cf6c1580-dc58-11e8-8acb-2de144ea1acf.png)
+
+![image](https://user-images.githubusercontent.com/42579285/47725526-04786800-dc59-11e8-9ae7-0ba46828f0a9.png)
+
+## 30.10.2018 (elfte Stunde)
+
