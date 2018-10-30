@@ -71,3 +71,8 @@ Außerdem haben wir eine Figur hinzugefügt, die je nachdem, ob ein Paar oder zw
 
 ## 30.10.2018 (elfte Stunde)
 
+Wie man auf dem zweiten Bild aus der letzten Stunde sehen kann,haben wir plötzlich Probleme mit Abläufen, die eigentlich seit mehreren Stunden problemlos funktioniert haben. Diese probieren wir zu lösen und gegebeenfalls noch einen Timer einzubauen.
+Nach über einer Stunde auf der Suche nach unserem Problem und schier endlosem überlegen, was wir falsch gemacht haben könnten, fand sich die Antwort in unserer neu hinzugefügten Kommentar Figur. Da diese auch eine Nachricht broadcastete und somit sich mit dem Karten Umdreh System in die Quere kam.
+
+![image](https://user-images.githubusercontent.com/42579285/47728450-ababce00-dc5e-11e8-9e5e-49491e0d5045.png)
+
