@@ -26,6 +26,10 @@
 
 [Dreizehnte Informatikstunde](#dreizehn)
 
+[Vierzehnte Informatikstunde](#vierzehn)
+
+[Fünfzehnte Informatikstunde](#fünfzehn)
+
 # Informatik Projekt 1 
 ## 27.08.2018 (Zweite Stunde) <a name="zwei"></a> 
 
@@ -95,6 +99,7 @@ Außerdem haben wir eine Figur hinzugefügt, die je nachdem, ob ein Paar oder zw
 
 ![image](https://user-images.githubusercontent.com/42579285/47725526-04786800-dc59-11e8-9ae7-0ba46828f0a9.png)
 
+
 ## 30.10.2018 (elfte Stunde) <a name="elf"></a> 
 
 Wie man auf dem zweiten Bild aus der letzten Stunde sehen kann,haben wir plötzlich Probleme mit Abläufen, die eigentlich seit mehreren Stunden problemlos funktioniert haben. Diese probieren wir zu lösen und gegebeenfalls noch einen Timer einzubauen.
@@ -107,3 +112,23 @@ Nach über einer Stunde auf der Suche nach unserem Problem und schier endlosem �
 
 ![image](https://user-images.githubusercontent.com/42579285/48073582-597b2780-e1df-11e8-8514-55ff7940e051.png)
 ![image](https://user-images.githubusercontent.com/42579285/48073636-76175f80-e1df-11e8-9426-ce14e2ceaed9.png)
+
+
+## 6.11.2018 (zwölfte Stunde) <a name="zwölf"></a> 
+
+.
+
+
+## 12.11.2018 (dreizehnte Stunde) <a name="dreizehn"></a> 
+
+.
+
+
+## 13.11.2018 (vierzehnte Stunde) <a name="vierzehn"></a> 
+
+.
+
+
+## 20.11.2018 (fünfzehnte Stunde) <a name="fünfzehn"></a> 
+
+.
