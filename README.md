@@ -118,7 +118,7 @@ Nach über einer Stunde auf der Suche nach unserem Problem und schier endlosem �
 
 
 ## 6.11.2018 (zwölfte Stunde) <a name="zwölf"></a> 
-
+Mixen probiert
 .
 
 
@@ -129,12 +129,12 @@ Nach über einer Stunde auf der Suche nach unserem Problem und schier endlosem �
 
 
 ## 12.11.2018 (dreizehnte Stunde) <a name="dreizehn"></a> 
-
+Timer
 .
 
 
 ## 13.11.2018 (vierzehnte Stunde) <a name="vierzehn"></a> 
-
+Homescreen
 .
 
 
