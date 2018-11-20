@@ -1,4 +1,6 @@
-# informatik101
+# Memory game- Arbeitstagebuch
+
+##Inhaltsverzeichnis
 
 [Erste Informatikstunde](#eins)
 
@@ -30,7 +32,14 @@
 
 [Fünfzehnte Informatikstunde](#fünfzehn)
 
-# Informatik Projekt 1 
+
+
+## 21.08.2018 (Erste Stunde) <a name="eins"></a>
+
+Heute ist unsere erste Informatikstunde und uns wurden die verschiedenen Programme, mit denen wir arbeiten können vorgestellt.
+Daraufhin haben wir uns Projekte ehemaliger Schüler angeschaut um einen Überblick zu bekommen, wie man mit GitHub und anderen Programmen arbeitet.
+
+
 ## 27.08.2018 (Zweite Stunde) <a name="zwei"></a> 
 
 In der heutigen Stunde haben wir uns mehr mit dem Programm Beauty and Joy of Computing beschäftigt.
