@@ -117,15 +117,15 @@ Nach über einer Stunde auf der Suche nach unserem Problem und schier endlosem �
 ![image](https://user-images.githubusercontent.com/42579285/47728450-ababce00-dc5e-11e8-9e5e-49491e0d5045.png)
 
 
+## 6.11.2018 (zwölfte Stunde) <a name="zwölf"></a> 
+
+.
+
+
 ![image](https://user-images.githubusercontent.com/42579285/48073513-36e90e80-e1df-11e8-9214-c7d7918717ee.png)
 
 ![image](https://user-images.githubusercontent.com/42579285/48073582-597b2780-e1df-11e8-8514-55ff7940e051.png)
 ![image](https://user-images.githubusercontent.com/42579285/48073636-76175f80-e1df-11e8-9426-ce14e2ceaed9.png)
-
-
-## 6.11.2018 (zwölfte Stunde) <a name="zwölf"></a> 
-
-.
 
 
 ## 12.11.2018 (dreizehnte Stunde) <a name="dreizehn"></a> 
