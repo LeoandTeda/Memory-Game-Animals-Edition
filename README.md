@@ -96,7 +96,7 @@ Eine “wartende” Figur kann zusätzlich angelegt werden, diese hat allerdings
 Somit ist diese Figur nur einmalig für ein paar Sekunden sichtbar im gesamten Spiel.
 
 ![unbenannt](https://user-images.githubusercontent.com/42579285/48961689-ed3a4b00-ef76-11e8-8c14-de3c33f95677.png)
-![image](https://user-images.githubusercontent.com/42579285/48961672-c2e88d80-ef76-11e8-9765-a8766ce84bdb.png)
+![unbenannt](https://user-images.githubusercontent.com/42579285/48961763-908b6000-ef77-11e8-821c-4ef3b6f83d60.png)
 
 
 #### Startbildschirm <a name="Startbildschirm"></a>
@@ -105,8 +105,6 @@ Somit ist diese Figur nur einmalig für ein paar Sekunden sichtbar im gesamten S
 
 Ein simpler Startbildschirm mit nur einer Funktion, dem Start Button, lässt sich verwirklichen, indem ein einfacher Hintergrund, der den Titel des Spiels zeigt unter costumes der Bühne eingefügt wird, der bei Anklicken der grünen Flagge sichtbar wird. Ein neuer Sprites wird mit dem Bild eines Startbuttons versehen und wie bei allen anderen Sprites wird die Größe angepasst. Beim Anklicken des Buttons soll das vorher programmierte Spielfeld sichtbar werden. Deswegen werden die Variablen der einzelnen Karten jeweils in den Befehl tell (...) to show, unter der Vorraussetzung when I am clicked eingefügt.
 Der Button selbst und der Hintergrund sollen logischerweise nicht mehr angezeigt werden. Dies wird durch tell Bühne to switch costume to Turtle und hide möglich, die ebenfalls zum selben Block hinzugefügt werden.
-
-
 
 
 #### Endbildschirm <a name="Endbildschirm"></a>
@@ -118,11 +116,15 @@ show Variable Score
 set Score to Punkte
 hide Variable Punkte
 
+![unbenannt](https://user-images.githubusercontent.com/42579285/48961798-cf211a80-ef77-11e8-92e0-d4163ec78c69.png)
+
 Die Variable Score unterscheidet sich nicht von Punkte und ist jegendlich für den Endbildschirm von Bedeutung, da die Punktzahl dort mittig im Bild erscheinen soll und nicht wie im vorhergehenden Spiel am oberen Rand.
 
 Um die oben angesprochenen Möglichkeiten durchzuführen können beliebige Tasten festgelegt werden, die das darüber geschilderte Szenario verwirklichen. 
-Um zurück zum Startbildschirm zu kommen wird die ausgewählte Taste in den Operator when … key pressed eingefügt, gefolgt von switch to costume Home (Menü) und tell (beliebiger Variabel (für  jede einzelnene Karte muss ein eigener Befehl eingefügt werden)) to hide. So werden die “versteckten” Karten erst wieder sichtbar, wenn der Startbutton angeklickt wird.
+Um zurück zum Startbildschirm zu kommen wird die ausgewählte Taste in den Operator when … key pressed eingefügt, gefolgt von switch to costume Home (Menü) und tell (beliebiger Variabel (für jede einzelnene Karte muss ein eigener Befehl eingefügt werden)) to hide. So werden die “versteckten” Karten erst wieder sichtbar, wenn der Startbutton angeklickt wird.
 
 #### Karten mischen <a name="Mix"></a>
 
+
+#### [Zum Stundenlog](https://github.com/StormarnJB/Unterricht1/blob/master/STUNDENLOG.md)
 
