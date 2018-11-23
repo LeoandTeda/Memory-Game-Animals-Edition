@@ -1,177 +1,57 @@
-# Memory Game Arbeitstagebuch
+Projektseite Memory
 
-## Inhaltsverzeichnis <a name="Inhaltsverzeichnis"></a>
+Das Programm
+Um unser Projekt zu programmieren haben wir das Programm snap! genutzt, da dies besonders für Anfänger gut geeignet ist, da keine Kenntnisse in einer Programmiersprache für die Verwendung vorausgesetzt werden.
 
-[Erste Informatikstunde](#eins)
+Der Spielklassiker Memory lässt sich,  mit einigem Zeitaufwand und logischen Denken in ein online game umwandeln. Wir haben uns dazu entschieden ein Sologame zu programmieren, dass  für jede Altersgruppe geeignet ist.
+Dafür muss man, je nach gewünschter Karten Anzahl entsprechend viele Sprites anlegen. In unserem Fall haben wir uns für 20 Karten, also 10 Paaren, entschieden. Nun können beliebig Motive für eine einheitliche Rückseite und 10 unterschiedliche Motive, möglicherweise mit einem gemeinsamen Thema wie beim klassischen Original, für die Vorderseite ausgewählt werden. Diese Bilder werden in den Bereich Costumes eingefügt und wenn nötig umbenannt. Anschließend wird der erste Block hinzugefügt um die Größe der Motive anzupassen. Der Befehl  set size to …% muss nur noch durch die gewünschte Größe vervollständigt werden.
 
-[Zweite Informatikstunde](#zwei)
+Karten sortieren
+Der nächste Schritt ist es die mittlerweile als Karten erkennbaren Sprites einer bestimmten Position zuzuordnen, so dass eine einheitliche Anordnung entsteht. Falls die Größe der Motive verändert werden soll kann man den Befehl set to size nutzen und sie auf eine einheitliche Größe bringen. Dies soll wie einige weitere Punkte direkt bei Spielbeginn passieren, also wird es unter den Operator when (grüne Flagge) clicked gesetzt. Übergangsweise können die Karten manuell an eine geeignete Stelle gezogen werden, da es nicht sinnvoll ist den Karten eine konkrete Position  zuzuordnen, wenn man im weiteren Verlauf die Karten Anordnung mischen möchte nach einem vollendeten Spiel.
 
-[Dritte Informatikstunde](#drei)
+Karten umdrehen
+Der Operator switch to costume … wird hinzugefügt und das Motiv der Rückseite ausgewählt, damit zu Beginn alle Karten das selbe Motiv zeigen. 
+Als nächstes soll eine Karte beim Anklicken das Motiv wechseln, sich also optisch “umdrehen”. Dies wird durch den Operatoren Block when I am (clicked) -> next costume ermöglicht. Eine weitere Möglichkeit wäre es statt next costume , switch to costume … zu verwenden. Dies hat in diesem Fall den selben Effekt.
+Damit sichergestellt ist, dass nur zwei Karten aufeinmal umgedreht werden können, wird die Variable AufgedeckteKarte wie die meisten anderen auch am Anfang unter Script der Bühne auf null gesetzt. Daraufhin wird bei jeder einzelnen Karte unter dem Operator when I am clicked and if AufgedeckteKarte < 2 das bereits bestehende next costume und das neu hinzuzufügende change AufgedeckteKarte by 1 eingefügt.
+Extras
+ Nachdem das Grundprinzip des Spiels komplett funktioniert, können jetzt weitere Funktionen hinzugefügt werden, die den Spielverlauf interessanter gestalten sollen.
+Zu diesen gehören unter anderem eine Figur, die den Spieler durch das ganze Spiel begleitet, ein Punktesystem und einen Timer um einen gewissen Anreiz zu schaffen sich zu verbessern, da es keinen Gegenspieler gibt. Weitergehend lassen sich Start und Endbildschirme programmieren.
 
-[Vierte Informatikstunde](#vier)
+Variablen
+Beim programmieren dieses Spiels ist es sinnvoll verschiedenste Variablen zu nutzen. Die Namensgebung ist dabei individuell anpassbar und keinesfalls eine Vorgabe.
 
-[Fünfte Informatikstunde](#fünf)
+Punktesystem
+Die Variable Punkte ist essenziell für ein funktionierende Punktesystem. Zu Spielbeginn soll bereits ein Spielstand von (15) Punkten vorhanden sei, damit der Spieler bei nicht direkt eintretenden Glück nicht mit einem negativen Spielstand startet. Also wird der Befehl set Punkte to (15) unter Scripts der Bühne, später gefolgt von weiteren Variablen, unter when (grüne Flagge) clicked gesetzt. Um den Punktestand bei finden eines Paares zu erhöhen wird unter den Bedingungsschaffenden Block der Befehl change Punkte by (3) hinzugefügt. Das selbe muss für den Fall, dass kein Paar gefunden wird geschehen, mit der Abweichung, dass statt einer positiven Zahl eine negativen Zahl, wenn möglich kleiner als eins, um den Endstand ins Positive zu bringen, eingesetzt wird.
 
-[Sechste Informatikstunde](#sechs)
 
-[Siebte Informatikstunde](#sieben)
+Begleitende Figur
+Um die begleitende Figur lebendiger zu gestalten ist es sinnvoll mehrere neue Sprites anzulegen, die verschiedene Emotionen dieser Figur zeigen. Hierfür werden wie zuvor bei den Karten die gewünschten Motive einzufügen. Es besteht die Möglichkeit für die zwei verschiedenen Ausgänge (Paar/ kein Paar) verschiedene Motive passend dazu passend auszuwählen. Diese sollen nicht dauerhaft sichtbar sein, also wird unter den Operatoren Block when (grüne Flagge) clicked nach der Einstellung der Größe, set to size, der Befehl hide eingefügt. Wann sie sich zeigen sollen wird bei den einzelnen Karten durch den Befehl tell (begleitender Figur)… to 
+1. show
+2. say … (je nach Emotion etwas positives zu dem Spieler) vor … sechs (hier ist es sinnvoll die Zeit, die die Figur sichtbar ist auf eine Sekunde zu beschränken, wenn ein Paar gefunden wurde und bei zwei unterschiedlichen Karten dem Spieler genug Zeit zu geben, um sich die Position der Motive einzuprägen)
+3. hide
 
-[Achte Informatikstunde](#acht)
+Eine “wartende” Figur kann zusätzlich angelegt werden, diese hat allerdings außer dem ersten Block, der über die Größe und Sichtbarkeit entscheidet einen weiteren Block, der sich anders als bei den beiden vorherigen Figuren noch im selben Script befindet. Diese Figur soll den Spieler dazu anregen etwas schneller zu spielen und die eigene Bestzeit zu schlagen. In den Operator when [ ] wird Time mit 75 gleichgesetzt und eingesetzt. Daraufhin folgen die Befehle 1. show
+2. say … for … sechs 
+3. hide
+Somit ist diese Figur nur einmalig für ein paar Sekunden sichtbar im gesamten Spiel.
 
-[Neunte Informatikstunde](#neun)
+Startbildschirm
 
-[Zehnte Informatikstunde](#zehn)
+Ein simpler Startbildschirm mit nur einer Funktion, dem Start Button, lässt sich verwirklichen, indem ein einfacher Hintergrund, der den Titel des Spiels zeigt unter costumes der Bühne eingefügt wird, der bei Anklicken der grünen Flagge sichtbar wird. Ein neuer Sprites wird mit dem Bild eines Startbuttons versehen und wie bei allen anderen Sprites wird die Größe angepasst. Beim Anklicken des Buttons soll das vorher programmierte Spielfeld sichtbar werden. Deswegen werden die Variablen der einzelnen Karten jeweils in den Befehl tell (...) to show, unter der Vorraussetzung when I am clicked eingefügt.
+Der Button selbst und der Hintergrund sollen logischerweise nicht mehr angezeigt werden. Dies wird durch tell Bühne to switch costume to Turtle und hide möglich, die ebenfalls zum selben Block hinzugefügt werden.
 
-[Elfte Informatikstunde](#elf)
+Endbildschirm
 
-[Zwölfte Informatikstunde](#zwölf)
+Das Spielende, also wenn alle Paaren aufgedeckt wurden, soll einen Endbildschirm mit verschiedenen Fortfahrmöglichkeiten hervorrufen. Zuerst wird ein passendes Bild gebraucht, dass entweder im Internet gefunden oder selbst gestaltet werden kann, dass Anweisungen für den Fall, dass der Spieler weiterspielen oder zurück zum Menü möchte anzeigt. Dieses wird bei costumes eingefügt. Um ein eindeutiges Spielende festzustellen wird die Variable Victory angelegt, die sich bei jeder einzelnen Karten im Befehl change Victory by 1 unter der Bedingung des gefundenen Paares befindet. Somit ergibt sich bei Vollendung der Runde ein Wert von 20 für Victory. Im Script der Bühne muss nun ein neuer Block zusammengefügt werden, bestehend aus 
+when Victory = 20
+switch to costume Endbildschirm 
+show Variable Score 
+set Score to Punkte
+hide Variable Punkte
 
-[Dreizehnte Informatikstunde](#dreizehn)
+Die Variable Score unterscheidet sich nicht von Punkte und ist jegendlich für den Endbildschirm von Bedeutung, da die Punktzahl dort mittig im Bild erscheinen soll und nicht wie im vorhergehenden Spiel am oberen Rand.
 
-[Vierzehnte Informatikstunde](#vierzehn)
-
-[Fünfzehnte Informatikstunde](#fünfzehn)
-
-
-
-## 21.08.2018 (Erste Stunde) <a name="eins"></a> 
-
-Heute, am 21. August, ist unsere erste Informatikstunde und uns wurden die verschiedenen Programme, mit denen wir arbeiten können vorgestellt. Unter anderem Applab, Snap, Greenfoot und viele weitere.  
-
-Daraufhin haben wir uns Projekte ehemaliger Schüler angeschaut um einen Überblick zu bekommen, wie man mit GitHub und anderen Programmen arbeitet.
-
-
-## 27.08.2018 (Zweite Stunde) <a name="zwei"></a> 
-
-In der heutigen Stunde haben wir uns mehr mit dem Programm Beauty and Joy of Computing beschäftigt.
-Dabei haben wir uns unter anderem Hilfe im Internet gesucht und sind auf ein Youtube Video der besagten Firma gestoßen. 
-(https://www.youtube.com/watch?v=-Cuuys2U0pU)
-
-
-## 28.08.2018 (Dritte Stunde) <a name="drei"></a> 
-
-In der heutigen Dopelstunde haben wir uns zuerst auf einen Projektinhalt geeinigt. Zuvor haben wir uns anhand eines 
-Videos (https://www.youtube.com/watch?v=kSLnwUuE3Xg) inspirieren lassen. Daraufhin haben wir uns erstes (einfach gehaltenes) Spiel programmmiert, mithilfe von Snap.
-
-![dagobert](https://user-images.githubusercontent.com/42579285/45287593-f162da80-b4e8-11e8-8124-5e35792994a9.png)
-
-
-## 10.09.2018 ( Vierte Stunde) <a name="vier"></a> 
-
-In dieser Stunde haben wir angefange uns Gedanken über die Umsetzung unseres ersten richtigen Proojekts zu machen.
-Wir einigten uns auf das Erstellen eines Memory Spiels. Hierfür legten wir Karten mit je zwei costumes an. Diese habe ich (Teda) zuhause 
-zuende benannt und einheitlich......
-
-![memory 1](https://user-images.githubusercontent.com/42579285/45362225-94dce980-b5d4-11e8-803c-cadf89b2fd39.png)
-
-## 11.09.2018 ( Fünfte Stunde) <a name="fünf"></a> 
-
-In der heutigen Doppelstunde haben wir unsere Projektarbeit weiter geführt. Dabei haben wir in snap uns mit "broadcast" und Variablen beschäftigt und versucht zwei karten zu verbinden und diese, falls beide angeglickt, verschwinden zu lassen.
-
-Dies habe ich (Leo) dann weiter geführt und auch die einzelnen Karten sortiert und richtig geordnet.
-
-![funfte stunde](https://user-images.githubusercontent.com/42579285/45613469-ca675400-ba66-11e8-83f3-09087f8b7d5f.png)
-
-## 17.09.2018 (sechste Stunde) <a name="sechs"></a> 
-
-Nachdem wir es geschafft haben ein Paar verschwinden zu lassen, haben wir in der heutigen Stunde versucht zwei falsche Karten wieder zurück zum Costume (Karte) zu ändern. Dies ist uns nicht ganz geglückt, so haben wir es nur geschafft eine Karte wieder zum aufgedeckten Zustand zu ändern.
-Zuhause habe ich (Teda) unsere Ergebnisse auf alle Karten übertragen.
-
-
-## 18.09.2018 (siebte Stunde) <a name="sieben"></a> 
-
-In der heutigen Doppelstunde haben wir einen großen Schritt in die richtige Richtung gemacht!!
-Wir haben unseren bisherigen Plan überarbeitet und es geschafft zwei falsche Kartenkombinationen wieder zur Ursprungs Costume zu setzen. Dieses system müssen wir nun bei allen Karten anwenden. damit hätten wir das rohe Spiel sozusagen geschafft.
-
-![sechste stunde](https://user-images.githubusercontent.com/42579285/45692880-2233b700-bb5c-11e8-9cca-ed1c463466ac.png)
-
-![sechste stunde bam](https://user-images.githubusercontent.com/42579285/45692916-32e42d00-bb5c-11e8-8b72-8718aed458cc.png)
-
-
-## 22.10.2018 (achte Stunde) <a name="acht"></a> 
-
-Die erste Informatik Stunde nach den Herbst Ferien habe ich (Leo), damit verbracht einen Plan zuerstellen, was wir noch bis zur Abgabe des Projektes schaffen müssen und könnten. Dabei habe ich mich entschieden zuerst ein Punktesystem für das Memory-Spiel zu programmieren. Daran habe ich mich auch in der heutigen Stunde gesetzt und werde dies in der nächsten Doppelstunde fortführen.
-
-![image](https://user-images.githubusercontent.com/42579285/47363296-b30b2e80-d6d6-11e8-818e-fe43d689deca.png)
-
-
-## 23.10.2018 (neunte Stunde) <a name="neun"></a> 
-
-Die heutige Doppelstunde habe ich (Leo) damit verbracht, wie geplant das Punktesystem für zwei Karten zum laufen zu bringen. Außerdem habe einen "Victory-Screen" hintzugefügt, welcher am Ende des Spiel erscheint, wenn alle Karten verschwunden sind. 
-
-
-## 29.10.2018 (zehnte Stunde) <a name="zehn"></a> 
-
-In dieser Stunde brachte Leo mich zuerst auf den neusten Stand und wir einigten uns vorläufig einen Einzelspieler modus zu erstellen und änderten das zuvor herausgearbeitete Punktesystem daraufhin ab.
-Außerdem haben wir eine Figur hinzugefügt, die je nachdem, ob ein Paar oder zwei verschiedene Karten aufgedeckt werden, unterschiedliche Emotionen zeigt.
-
-![image](https://user-images.githubusercontent.com/42579285/47725411-cf6c1580-dc58-11e8-8acb-2de144ea1acf.png)
-
-![image](https://user-images.githubusercontent.com/42579285/47725526-04786800-dc59-11e8-9ae7-0ba46828f0a9.png)
-
-
-## 30.10.2018 (elfte Stunde) <a name="elf"></a> 
-
-Wie man auf dem zweiten Bild aus der letzten Stunde sehen kann, haben wir plötzlich Probleme mit Abläufen, die eigentlich seit mehreren Stunden problemlos funktioniert haben. Diese probieren wir zu lösen und gegebenfalls noch einen Timer einzubauen.
-Nach über einer Stunde auf der Suche nach unserem Problem und schier endlosem überlegen, was wir falsch gemacht haben könnten, fand sich die Antwort in unserer neu hinzugefügten Kommentar Figur. Da diese auch eine Nachricht broadcastete und somit sich mit dem Karten Umdreh System in die Quere kam.
-
-![image](https://user-images.githubusercontent.com/42579285/47728450-ababce00-dc5e-11e8-9e5e-49491e0d5045.png)
-
-
-## 6.11.2018 (zwölfte Stunde) <a name="zwölf"></a> 
-
-Nachdem nun eine ganze Woche zwischen unserem bisher größten Problem liegt (siehe Stundenblock vom 30.10), wollen wir jetzt den nächsten Schritt wagen. Undzwar eine Misch- oder auch Mix-Befehl. Dieser Befehl soll unser Spiel noch realistischer erscheinen lassen, da auch beim normalen Memory nach der Beendigung eines Spiels neu gemischt wird. Außerdem wird das Spiel dadurch auch noch spannender, da man sich nun nicht mehr die Positionen der einzelnen karten merken kann.
-
-Wir wissen, dass dies viel Zeit in Anspruch nehmen wird, da wir uns erstmal ein Konzept überlegen müssen und dies dann auch noch testen müssen, aber das ist es uns wert!
-
-In der Doppelstunde ist es uns gelungen ein ungefähres Konzept zu entwickeln, was wir auch gleich in snap ausprobiert haben. Dabei haben wir uns dem Operator-Block "pick random x to x" zu Nutzen gemacht, um eine zufällige Position für den X- und Y-Wert zu bestimmen und dies für jede Karte einzelnd. Wir werden dies genauer auf unserer Projektseite ausführen.
-
-Leider funktioniert der Mix Befehl noch nicht richtig, aber wir haben in der doppelstunde viel erreicht und werden unsere Arbeit nächste Woche weiterführen.
-
-
-![image](https://user-images.githubusercontent.com/42579285/48073513-36e90e80-e1df-11e8-9214-c7d7918717ee.png)
-
-![image](https://user-images.githubusercontent.com/42579285/48073582-597b2780-e1df-11e8-8514-55ff7940e051.png)
-![image](https://user-images.githubusercontent.com/42579285/48073636-76175f80-e1df-11e8-9426-ce14e2ceaed9.png)
-
-
-## 12.11.2018 (dreizehnte Stunde) <a name="dreizehn"></a> 
-
-Die Arbeit am Mix-Befehl geht weiter. Ich (Leo) habe viel zu Hause ausprobiert und schaffte den Befehl weiter zu verbessern. Unser Fehler von letzter Woche war es, dass alle Karten gleichzeitig versuchten sich eine Position auszusuchen und sich dabei gegenseitig blockierten, was dazu führte, dass keine Karte sich bewegte.
-
-Dies habe wir nun behoben und indem alles bei "Hummel 1" losgeht. Das bedeutet, dass sich die erste Karte (Hummel 1) einen Platz mithilfe vom Block Befehl "pick random" aussucht und dann diese Nachricht mithilfe einer Variable weitergibt an die zweite Karte und so weiter. Dies hört sich vielleicht erstmal kompliziert an wird aber auf unser Projektseite genauer erklärt.
-
-Zwar erschienen die Karte nun an unterschiedlichen Orten trotzdem gab es ein Problem, denn an manchen puntken lagen zwei Karten übereinander, was dazu führte, dass andere Stellen wiederrum leer blieben. Schade, trotzdem ein weiterer Schritt in die richtige Richtung.
-
-Zudem schafften wir es in der Stunde einen Timer mithilfe einer Variable einzubauen, welcher während des Spiels aufzeigt, wie lange man schon spielt. Insgesamt also ein sehr produktiver Tag!
-
-
-## 13.11.2018 (vierzehnte Stunde) <a name="vierzehn"></a> 
-
-Das Projekt geht weiter und damit auch unser Problem mit dem Mix-Befehl, denn dieser scheint immer noch nicht zu funktionieren und uns ist auch keine neue Idee eingefallen, um das problem zu lösen.
-
-Da wir so nicht weiterkommen entschieden wir uns dazu erstmal etwas anderes anzufangen, um vielleicht später eine neue Idee zu bekommen.
-
-Wir verbesserten unseren "Victory Screen" indem wir weitere Optionen, wie "Weiter spielen?" oder "Menü" visuell darstellten. Hinzukommt ein provisorische "Score" Anzeige, welche wir auch noch am Ende des Spiels einfügen möchten. Damit haben wir schon mal das Spiel und das dazugehörige Ende. 
-
-Trotzdem fehlt uns noch ein Anfang oder auch Homescreen genannt, welcher dem Spieler noch mehr das Gefühl verleit, dass er ein echtes Memory Game im Online-Style spielt. Dies werden wir über das Wochenende in Anspruch nehmen und in der Woche daran weiterarbeiten, denn so langsam rückt der Abgabetermin in Griffweite (23.11).  
-
-
-## 20.11.2018 (fünfzehnte Stunde) <a name="fünfzehn"></a> 
-
-Die letzte Informatikstunde vor der Projektabgabe steht an und es gibt noch einiges zu tun. Deshalb haben wir auch schon viel am Wochenende gemacht, um nicht zu viele Probleme mit der Zeit am Ende zu haben.
-
-Wir haben unter anderem es endlich geschafft den Mix Befehl zum laufen zu bringen. Das Problem bestand einfach darin, dass wir bei einer Karte einen Befehl vergessen hatten und dadurch der ganze Ablauf gestört war. Daran sieht man auch, egal wie einfach der Fehler ist, der Effekt kann immer verheerend für das Programm sein, aber zum Glück haben wir unseren Fehler gefunden.
-
-Des Weiteren haben wir zudem einen Startbildschirm hinzugefügt, welcher am Anfang des Spiels erscheint und durch das kilcken auf einen Sprite (in diesem Fall der Start-Button) wieder verschwindet. Auch haben wir es geschafft, dass es, wie im "Victory Screen" aufgezeigt, möglich ist mit der Taste "m" zurück zum Homescreen zu kommen und mit der Leertaste ein weiteres Spiel zu starten. Außerdem wird nun der Score am Ende des Spiels angezeigt, wodurch man seine Versuche miteinander vergleichen kann.
-
-Das haben wir in der für dieses Projekt vorgesehenen letzten Stunde geschafft. Wir sind noch nicht ganz fertig müssen zum Beispiel noch Musik einfügen und auch ein "Move Counter" ist vorgesehen. Dies steht jetzt noch für die letzten Tage an, ist aber im Vergleich zu dem, was wir schon geschafft haben sehr leicht.
-
-Damit sind 15 Stunden Informatik Unterricht vorbei und es ist Zeit sich an die projektseite zu setzen.
-
-
-
-[Zum Anfang](#Inhaltsverzeichnis)
-
+Um die oben angesprochenen Möglichkeiten durchzuführen können beliebige Tasten festgelegt werden, die das darüber geschilderte Szenario verwirklichen. 
+Um zurück zum Startbildschirm zu kommen wird die ausgewählte Taste in den Operator when … key pressed eingefügt, gefolgt von switch to costume Home (Menü) und tell (beliebiger Variabel (für  jede einzelnene Karte muss ein eigener Befehl eingefügt werden)) to hide. So werden die “versteckten” Karten erst wieder sichtbar, wenn der Startbutton angeklickt wird.
 
 
