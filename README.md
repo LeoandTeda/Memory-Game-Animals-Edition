@@ -3,6 +3,7 @@
 
 ## Inhaltsverzeichnis
 * [Programm](#Programm)
+* [Spielidee](#Spielidee)
 * [Aufbau](#Aufbau)
   * [Karten sortieren](#Sortieren)
   * [Karten umdrehen](#Umdrehen)
@@ -15,15 +16,21 @@
 
 ## Das Programm <a name="Programm"></a>
 
-Um unser Projekt zu programmieren haben wir das Programm snap! genutzt, da dies besonders für Anfänger gut geeignet ist, da keine Kenntnisse in einer Programmiersprache für die Verwendung vorausgesetzt werden.
+Um unser Projekt zu programmieren haben wir das Programm snap! genutzt, da dies besonders für Anfänger gut geeignet ist, da keine Kenntnisse in einer Programmiersprache für die Verwendung vorausgesetzt werden. Snap vereinfacht dabei den Quellcode in Blöcke, welche je nach belieben zusammengeheftet werden können. Dabei werden Fehler anders als beim normalen programmieren schnell erkannt und es werden zudem viele Tipps sowie Anleitungen gegeben. Snap beruht dabei auf einer sehr visuellen Programmiersprache.
 
-Der Spielklassiker Memory lässt sich,  mit einigem Zeitaufwand und logischen Denken in ein online game umwandeln. Wir haben uns dazu entschieden ein Sologame zu programmieren, dass  für jede Altersgruppe geeignet ist.
-Dafür muss man, je nach gewünschter Karten Anzahl entsprechend viele Sprites anlegen. In unserem Fall haben wir uns für 20 Karten, also 10 Paaren, entschieden. Nun können beliebig Motive für eine einheitliche Rückseite und 10 unterschiedliche Motive, möglicherweise mit einem gemeinsamen Thema wie beim klassischen Original, für die Vorderseite ausgewählt werden. Diese Bilder werden in den Bereich Costumes eingefügt und wenn nötig umbenannt. Anschließend wird der erste Block hinzugefügt um die Größe der Motive anzupassen. Der Befehl  set size to …% muss nur noch durch die gewünschte Größe vervollständigt werden.
+![image](https://user-images.githubusercontent.com/42579285/48960806-160b1200-ef70-11e8-82f8-a4498ecd9050.png)
+
+## Die Spielidee <a name="Spielidee"></a>
+
+Der Spieleklassiker Memory lässt sich,  mit einigem Zeitaufwand und logischen Denken in ein online game umwandeln. Wir haben uns dazu entschieden ein Sologame zu programmieren, dass  für jede Altersgruppe geeignet ist.
+Dafür muss man, je nach gewünschter Kartenanzahl entsprechend viele Sprites anlegen. In unserem Fall haben wir uns für 20 Karten, also 10 Paaren, entschieden. Nun können beliebig Motive für eine einheitliche Rückseite und 10 unterschiedliche Motive, möglicherweise mit einem gemeinsamen Thema wie beim klassischen Original, für die Vorderseite ausgewählt werden. Diese Bilder werden in den Bereich Costumes eingefügt und wenn nötig umbenannt. Anschließend wird der erste Block hinzugefügt um die Größe der Motive anzupassen. Der Befehl  set size to …% muss nur noch durch die gewünschte Größe vervollständigt werden.
+
 
 ## Der Aufbau <a name="Aufbau"></a>
 
 ### Karten sortieren <a name="Sortieren"></a>
 Der nächste Schritt ist es die mittlerweile als Karten erkennbaren Sprites einer bestimmten Position zuzuordnen, so dass eine einheitliche Anordnung entsteht. Falls die Größe der Motive verändert werden soll kann man den Befehl set to size nutzen und sie auf eine einheitliche Größe bringen. Dies soll wie einige weitere Punkte direkt bei Spielbeginn passieren, also wird es unter den Operator when (grüne Flagge) clicked gesetzt. Übergangsweise können die Karten manuell an eine geeignete Stelle gezogen werden, da es nicht sinnvoll ist den Karten eine konkrete Position  zuzuordnen, wenn man im weiteren Verlauf die Karten Anordnung mischen möchte nach einem vollendeten Spiel.
+
 
 ### Karten umdrehen <a name="Umdrehen"></a>
 Der Operator switch to costume … wird hinzugefügt und das Motiv der Rückseite ausgewählt, damit zu Beginn alle Karten das selbe Motiv zeigen. 
@@ -33,8 +40,10 @@ Extras
  Nachdem das Grundprinzip des Spiels komplett funktioniert, können jetzt weitere Funktionen hinzugefügt werden, die den Spielverlauf interessanter gestalten sollen.
 Zu diesen gehören unter anderem eine Figur, die den Spieler durch das ganze Spiel begleitet, ein Punktesystem und einen Timer um einen gewissen Anreiz zu schaffen sich zu verbessern, da es keinen Gegenspieler gibt. Weitergehend lassen sich Start und Endbildschirme programmieren.
 
+
 ### Variablen <a name="Variablen"></a>
 Beim programmieren dieses Spiels ist es sinnvoll verschiedenste Variablen zu nutzen. Die Namensgebung ist dabei individuell anpassbar und keinesfalls eine Vorgabe.
+
 
 ### Punktesystem <a name="Punktesystem"></a>
 Die Variable Punkte ist essenziell für ein funktionierende Punktesystem. Zu Spielbeginn soll bereits ein Spielstand von (15) Punkten vorhanden sei, damit der Spieler bei nicht direkt eintretenden Glück nicht mit einem negativen Spielstand startet. Also wird der Befehl set Punkte to (15) unter Scripts der Bühne, später gefolgt von weiteren Variablen, unter when (grüne Flagge) clicked gesetzt. Um den Punktestand bei finden eines Paares zu erhöhen wird unter den Bedingungsschaffenden Block der Befehl change Punkte by (3) hinzugefügt. Das selbe muss für den Fall, dass kein Paar gefunden wird geschehen, mit der Abweichung, dass statt einer positiven Zahl eine negativen Zahl, wenn möglich kleiner als eins, um den Endstand ins Positive zu bringen, eingesetzt wird.
@@ -51,10 +60,12 @@ Eine “wartende” Figur kann zusätzlich angelegt werden, diese hat allerdings
 3. hide
 Somit ist diese Figur nur einmalig für ein paar Sekunden sichtbar im gesamten Spiel.
 
+
 ### Startbildschirm <a name="Startbildschirm"></a>
 
 Ein simpler Startbildschirm mit nur einer Funktion, dem Start Button, lässt sich verwirklichen, indem ein einfacher Hintergrund, der den Titel des Spiels zeigt unter costumes der Bühne eingefügt wird, der bei Anklicken der grünen Flagge sichtbar wird. Ein neuer Sprites wird mit dem Bild eines Startbuttons versehen und wie bei allen anderen Sprites wird die Größe angepasst. Beim Anklicken des Buttons soll das vorher programmierte Spielfeld sichtbar werden. Deswegen werden die Variablen der einzelnen Karten jeweils in den Befehl tell (...) to show, unter der Vorraussetzung when I am clicked eingefügt.
 Der Button selbst und der Hintergrund sollen logischerweise nicht mehr angezeigt werden. Dies wird durch tell Bühne to switch costume to Turtle und hide möglich, die ebenfalls zum selben Block hinzugefügt werden.
+
 
 ### Endbildschirm <a name="Endbildschirm"></a>
 
