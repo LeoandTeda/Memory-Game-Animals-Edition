@@ -18,6 +18,7 @@
 
 ![image](https://user-images.githubusercontent.com/42579285/48960806-160b1200-ef70-11e8-82f8-a4498ecd9050.png)
 
+
 Um unser Projekt zu programmieren haben wir das Programm snap! genutzt, da dies besonders für Anfänger gut geeignet ist, da keine Kenntnisse in einer Programmiersprache für die Verwendung vorausgesetzt werden. Snap vereinfacht dabei den Quellcode in Blöcke, welche je nach belieben zusammengeheftet werden können. Dabei werden Fehler anders als beim normalen programmieren schnell erkannt und es werden zudem viele Tipps sowie Anleitungen gegeben. Snap beruht dabei auf einer sehr visuellen Programmiersprache.
 
 
@@ -63,6 +64,8 @@ Somit ist diese Figur nur einmalig für ein paar Sekunden sichtbar im gesamten S
 
 
 ### Startbildschirm <a name="Startbildschirm"></a>
+
+![unbenannt](https://user-images.githubusercontent.com/42579285/48960865-89ad1f00-ef70-11e8-9988-c1d890fe1fdb.png)
 
 Ein simpler Startbildschirm mit nur einer Funktion, dem Start Button, lässt sich verwirklichen, indem ein einfacher Hintergrund, der den Titel des Spiels zeigt unter costumes der Bühne eingefügt wird, der bei Anklicken der grünen Flagge sichtbar wird. Ein neuer Sprites wird mit dem Bild eines Startbuttons versehen und wie bei allen anderen Sprites wird die Größe angepasst. Beim Anklicken des Buttons soll das vorher programmierte Spielfeld sichtbar werden. Deswegen werden die Variablen der einzelnen Karten jeweils in den Befehl tell (...) to show, unter der Vorraussetzung when I am clicked eingefügt.
 Der Button selbst und der Hintergrund sollen logischerweise nicht mehr angezeigt werden. Dies wird durch tell Bühne to switch costume to Turtle und hide möglich, die ebenfalls zum selben Block hinzugefügt werden.
