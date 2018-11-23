@@ -8,7 +8,7 @@
   * [Grundprinzip](#Grundprinzip)
   * [Karten sortieren](#Sortieren)
   * [Karten umdrehen](#Umdrehen)
- * [Extras](#Extras)
+* [Extras](#Extras)
   * [Variablen](#Variablen)
   * [Punktesystem](#Punktesystem)
   * [Begleitende Figuren](#Figuren)
