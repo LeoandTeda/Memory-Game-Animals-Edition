@@ -126,5 +126,5 @@ Um zurück zum Startbildschirm zu kommen wird die ausgewählte Taste in den Oper
 #### Karten mischen <a name="Mix"></a>
 
 
-#### [Zum Stundenlog](https://github.com/StormarnJB/Unterricht1/blob/master/STUNDENLOG.md)
+#### [Zum Arbeitstagebuch](https://github.com/LeoandTeda/Memory-Game-Animals-Edition/blob/master/Arbeitstagebuch.md)
 
