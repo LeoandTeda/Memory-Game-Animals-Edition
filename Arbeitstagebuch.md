@@ -173,4 +173,4 @@ Damit sind 15 Stunden Informatik Unterricht vorbei und es ist Zeit sich an die p
 
 #### [Zum Anfang](#Inhaltsverzeichnis)
 
-#### [Zur Projektseite](https://github.com/StormarnJB/Unterricht1/blob/master/STUNDENLOG.md)
+#### [Zur Projektseite](https://github.com/LeoandTeda/Memory-Game-Animals-Edition/blob/master/README.md)
