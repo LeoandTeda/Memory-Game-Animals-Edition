@@ -34,9 +34,10 @@
 
 
 
-## 21.08.2018 (Erste Stunde) <a name="eins"></a>
+## 21.08.2018 (Erste Stunde) <a name="eins"></a> 
 
-Heute ist unsere erste Informatikstunde und uns wurden die verschiedenen Programme, mit denen wir arbeiten können vorgestellt.
+Heute, am 21. August, ist unsere erste Informatikstunde und uns wurden die verschiedenen Programme, mit denen wir arbeiten können vorgestellt. Unter anderem Applab, Snap, Greenfoot und viele weitere.  
+
 Daraufhin haben wir uns Projekte ehemaliger Schüler angeschaut um einen Überblick zu bekommen, wie man mit GitHub und anderen Programmen arbeitet.
 
 
@@ -167,6 +168,7 @@ Des Weiteren haben wir zudem einen Startbildschirm hinzugefügt, welcher am Anfa
 Das haben wir in der für dieses Projekt vorgesehenen letzten Stunde geschafft. Wir sind noch nicht ganz fertig müssen zum Beispiel noch Musik einfügen und auch ein "Move Counter" ist vorgesehen. Dies steht jetzt noch für die letzten Tage an, ist aber im Vergleich zu dem, was wir schon geschafft haben sehr leicht.
 
 Damit sind 15 Stunden Informatik Unterricht vorbei und es ist Zeit sich an die projektseite zu setzen.
+
 
 
 [Zum Anfang](#Inhaltsverzeichnis)
