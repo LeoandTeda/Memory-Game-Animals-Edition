@@ -1,4 +1,4 @@
-# Memory game- Arbeitstagebuch
+# Memory Game Arbeitstagebuch
 
 ## Inhaltsverzeichnis
 
@@ -111,15 +111,21 @@ Außerdem haben wir eine Figur hinzugefügt, die je nachdem, ob ein Paar oder zw
 
 ## 30.10.2018 (elfte Stunde) <a name="elf"></a> 
 
-Wie man auf dem zweiten Bild aus der letzten Stunde sehen kann,haben wir plötzlich Probleme mit Abläufen, die eigentlich seit mehreren Stunden problemlos funktioniert haben. Diese probieren wir zu lösen und gegebeenfalls noch einen Timer einzubauen.
+Wie man auf dem zweiten Bild aus der letzten Stunde sehen kann, haben wir plötzlich Probleme mit Abläufen, die eigentlich seit mehreren Stunden problemlos funktioniert haben. Diese probieren wir zu lösen und gegebenfalls noch einen Timer einzubauen.
 Nach über einer Stunde auf der Suche nach unserem Problem und schier endlosem überlegen, was wir falsch gemacht haben könnten, fand sich die Antwort in unserer neu hinzugefügten Kommentar Figur. Da diese auch eine Nachricht broadcastete und somit sich mit dem Karten Umdreh System in die Quere kam.
 
 ![image](https://user-images.githubusercontent.com/42579285/47728450-ababce00-dc5e-11e8-9e5e-49491e0d5045.png)
 
 
 ## 6.11.2018 (zwölfte Stunde) <a name="zwölf"></a> 
-Mixen probiert
-.
+
+Nachdem nun eine ganze Woche zwischen unserem bisher größten Problem liegt (siehe Stundenblock vom 30.10), wollen wir jetzt den nächsten Schritt wagen. Undzwar eine Misch- oder auch Mix-Befehl. Dieser Befehl soll unser Spiel noch realistischer erscheinen lassen, da auch beim normalen Memory nach der Beendigung eines Spiels neu gemischt wird. Außerdem wird das Spiel dadurch auch noch spannender, da man sich nun nicht mehr die Positionen der einzelnen karten merken kann.
+
+Wir wissen, dass dies viel Zeit in Anspruch nehmen wird, da wir uns erstmal ein Konzept überlegen müssen und dies dann auch noch testen müssen, aber das ist es uns wert!
+
+In der Doppelstunde ist es uns gelungen ein ungefähres Konzept zu entwickeln, was wir auch gleich in snap ausprobiert haben. Dabei haben wir uns dem Operator-Block "pick random x to x" zu Nutzen gemacht, um eine zufällige Position für den X- und Y-Wert zu bestimmen und dies für jede Karte einzelnd. Wir werden dies genauer auf unserer Projektseite ausführen.
+
+Leider funktioniert der Mix Befehl noch nicht richtig, aber wir haben in der doppelstunde viel erreicht und werden unsere Arbeit nächste Woche weiterführen.
 
 
 ![image](https://user-images.githubusercontent.com/42579285/48073513-36e90e80-e1df-11e8-9214-c7d7918717ee.png)
@@ -129,15 +135,25 @@ Mixen probiert
 
 
 ## 12.11.2018 (dreizehnte Stunde) <a name="dreizehn"></a> 
-Timer
-.
+
+Die Arbeit am Mix-Befehl geht weiter. Ich (Leo) habe viel zu Hause ausprobiert und schaffte den Befehl weiter zu verbessern. Unser Fehler von letzter Woche war es, dass alle Karten gleichzeitig versuchten sich eine Position auszusuchen und sich dabei gegenseitig blockierten, was dazu führte, dass keine Karte sich bewegte.
+
+Dies habe wir nun behoben und indem alles bei "Hummel 1" losgeht. Das bedeutet, dass sich die erste Karte (Hummel 1) einen Platz mithilfe vom Block Befehl "pick random" aussucht und dann diese Nachricht mithilfe einer Variable weitergibt an die zweite Karte und so weiter. Dies hört sich vielleicht erstmal kompliziert an wird aber auf unser Projektseite genauer erklärt.
+
+Zwar erschienen die Karte nun an unterschiedlichen Orten trotzdem gab es ein Problem, denn an manchen puntken lagen zwei Karten übereinander, was dazu führte, dass andere Stellen wiederrum leer blieben. Schade, trotzdem ein weiterer Schritt in die richtige Richtung.
+
+Zudem schafften wir es in der Stunde einen Timer mithilfe einer Variable einzubauen, welcher während des Spiels aufzeigt, wie lange man schon spielt. Insgesamt also ein sehr produktiver Tag!
 
 
 ## 13.11.2018 (vierzehnte Stunde) <a name="vierzehn"></a> 
-Homescreen
-.
+
+Das Projekt geht weiter und damit auch unser Problem mit dem Mix-Befehl, denn dieser scheint immer noch nicht zu funktionieren und uns ist auch keine neue Idee eingefallen, um das problem zu lösen.
+
+Da wir so nicht weiterkommen entschieden wir uns dazu erstmal etwas anderes anzufangen, um vielleicht später eine neue Idee zu bekommen.
+
+Wir verbesserten unseren "Victory Screen" indem wir weitere Optionen, wie "Weiter spielen?" oder "Menü" visuell darstellten. Hinzukommt ein provisorische "Score" Anzeige, welche wir auch noch am Ende des Spiels einfügen möchten. Damit haben wir schon mal das Spiel und das dazugehörige Ende. Trotzdem fehlt uns noch ein Anfang oder auch Homescreen genannt, welcher dem Spieler noch mehr das Gefühl verleit, dass er ein echtes Memory Game im Online-Style spielt. Dies werden wir über das Wochenende in Anspruch nehmen und in der Woche daran weiterarbeiten, denn so langsam rückt der Abgabetermin in Griffweite (23.11).  
 
 
 ## 20.11.2018 (fünfzehnte Stunde) <a name="fünfzehn"></a> 
 
-.
+Die letzte Informatikstunde 
