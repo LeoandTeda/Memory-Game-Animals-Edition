@@ -5,15 +5,15 @@
 * [Programm](#Programm)
 * [Spielidee](#Spielidee)
 * [Aufbau](#Aufbau)
- * [Grundprinzip](#Grundprinzip)
- * [Karten sortieren](#Sortieren)
- * [Karten umdrehen](#Umdrehen)
+  * [Grundprinzip](#Grundprinzip)
+  * [Karten sortieren](#Sortieren)
+  * [Karten umdrehen](#Umdrehen)
  * [Extras](#Extras)
- * [Variablen](#Variablen)
- * [Punktesystem](#Punktesystem)
- * [Begleitende Figuren](#Figuren)
- * [Startbildschirm](#Startbildschirm)
- * [Endbildschirm](#Endbildschirm)
+  * [Variablen](#Variablen)
+  * [Punktesystem](#Punktesystem)
+  * [Begleitende Figuren](#Figuren)
+  * [Startbildschirm](#Startbildschirm)
+  * [Endbildschirm](#Endbildschirm)
 
 
 ## Das Programm <a name="Programm"></a>
