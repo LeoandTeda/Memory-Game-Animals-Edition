@@ -125,6 +125,16 @@ Um zurück zum Startbildschirm zu kommen wird die ausgewählte Taste in den Oper
 
 #### Karten mischen <a name="Mix"></a>
 
+![unbenannt](https://user-images.githubusercontent.com/42579285/48961924-2b386e80-ef79-11e8-86e0-a79a1523fb21.png)
+
+Das Mischen der Karten ist das weitaus komplizierteste am ganzen Memory Spiel. Dabei werden mehrere Variablen, welche für jede Karte (Sprite) einzelnd erstell werden müssen, benötigt.
+
+![unbenannt](https://user-images.githubusercontent.com/42579285/48961970-bb76b380-ef79-11e8-8850-87f266557375.png)
+
+Nachdem diese alle erstellt wurden, wird mithilfe von pick random x und y Koordinaten für die erste Karte erstellt. Dabei werden die x/y Werte so multipliziert, dass die karten am richtigen Ort erscheinen. Nachdem nun die erste Karte ihren zufälligen Platz hat, wird die Variable Mix um einen erhöht. Dadurch wird die zweite Karte aktiviert, da Mix=1 ist. Auch diese Karte sucht sich einen zufälligen Platz, wenn sie dabei auf den Platz der ersten Karte trifft, muss sie von vorne beginnen bis sie einen anderen Platz hat. Dies geht jetzt bis zur zwanzigsten Karte durch, so dass alle Karten einen neuen Platz haben.
+
+![unbenannt](https://user-images.githubusercontent.com/42579285/48962060-f5948500-ef7a-11e8-98b1-5d6748edeb98.png)
+
 
 #### [Zum Arbeitstagebuch](https://github.com/LeoandTeda/Memory-Game-Animals-Edition/blob/master/Arbeitstagebuch.md)
 
