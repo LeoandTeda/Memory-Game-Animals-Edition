@@ -1,6 +1,6 @@
 # Memory Game Arbeitstagebuch
 
-## Inhaltsverzeichnis
+## Inhaltsverzeichnis <a name="Inhaltsverzeichnis"></a>
 
 [Erste Informatikstunde](#eins)
 
@@ -151,9 +151,25 @@ Das Projekt geht weiter und damit auch unser Problem mit dem Mix-Befehl, denn di
 
 Da wir so nicht weiterkommen entschieden wir uns dazu erstmal etwas anderes anzufangen, um vielleicht später eine neue Idee zu bekommen.
 
-Wir verbesserten unseren "Victory Screen" indem wir weitere Optionen, wie "Weiter spielen?" oder "Menü" visuell darstellten. Hinzukommt ein provisorische "Score" Anzeige, welche wir auch noch am Ende des Spiels einfügen möchten. Damit haben wir schon mal das Spiel und das dazugehörige Ende. Trotzdem fehlt uns noch ein Anfang oder auch Homescreen genannt, welcher dem Spieler noch mehr das Gefühl verleit, dass er ein echtes Memory Game im Online-Style spielt. Dies werden wir über das Wochenende in Anspruch nehmen und in der Woche daran weiterarbeiten, denn so langsam rückt der Abgabetermin in Griffweite (23.11).  
+Wir verbesserten unseren "Victory Screen" indem wir weitere Optionen, wie "Weiter spielen?" oder "Menü" visuell darstellten. Hinzukommt ein provisorische "Score" Anzeige, welche wir auch noch am Ende des Spiels einfügen möchten. Damit haben wir schon mal das Spiel und das dazugehörige Ende. 
+
+Trotzdem fehlt uns noch ein Anfang oder auch Homescreen genannt, welcher dem Spieler noch mehr das Gefühl verleit, dass er ein echtes Memory Game im Online-Style spielt. Dies werden wir über das Wochenende in Anspruch nehmen und in der Woche daran weiterarbeiten, denn so langsam rückt der Abgabetermin in Griffweite (23.11).  
 
 
 ## 20.11.2018 (fünfzehnte Stunde) <a name="fünfzehn"></a> 
 
-Die letzte Informatikstunde 
+Die letzte Informatikstunde vor der Projektabgabe steht an und es gibt noch einiges zu tun. Deshalb haben wir auch schon viel am Wochenende gemacht, um nicht zu viele Probleme mit der Zeit am Ende zu haben.
+
+Wir haben unter anderem es endlich geschafft den Mix Befehl zum laufen zu bringen. Das Problem bestand einfach darin, dass wir bei einer Karte einen Befehl vergessen hatten und dadurch der ganze Ablauf gestört war. Daran sieht man auch, egal wie einfach der Fehler ist, der Effekt kann immer verheerend für das Programm sein, aber zum Glück haben wir unseren Fehler gefunden.
+
+Des Weiteren haben wir zudem einen Startbildschirm hinzugefügt, welcher am Anfang des Spiels erscheint und durch das kilcken auf einen Sprite (in diesem Fall der Start-Button) wieder verschwindet. Auch haben wir es geschafft, dass es, wie im "Victory Screen" aufgezeigt, möglich ist mit der Taste "m" zurück zum Homescreen zu kommen und mit der Leertaste ein weiteres Spiel zu starten. Außerdem wird nun der Score am Ende des Spiels angezeigt, wodurch man seine Versuche miteinander vergleichen kann.
+
+Das haben wir in der für dieses Projekt vorgesehenen letzten Stunde geschafft. Wir sind noch nicht ganz fertig müssen zum Beispiel noch Musik einfügen und auch ein "Move Counter" ist vorgesehen. Dies steht jetzt noch für die letzten Tage an, ist aber im Vergleich zu dem, was wir schon geschafft haben sehr leicht.
+
+Damit sind 15 Stunden Informatik Unterricht vorbei und es ist Zeit sich an die projektseite zu setzen.
+
+
+[Zum Anfang](#Inhaltsverzeichnis)
+
+
+
