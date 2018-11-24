@@ -155,6 +155,8 @@ Die Arbeit am Mix-Befehl geht weiter. Ich (Leo) habe viel zu Hause ausprobiert u
 
 Dies habe wir nun behoben und indem alles bei "Hummel 1" losgeht. Das bedeutet, dass sich die erste Karte (Hummel 1) einen Platz mithilfe vom Block Befehl "pick random" aussucht und dann diese Nachricht mithilfe einer Variable weitergibt an die zweite Karte und so weiter. Dies hört sich vielleicht erstmal kompliziert an wird aber auf unser Projektseite genauer erklärt.
 
+![unbenannt](https://user-images.githubusercontent.com/42579285/48963369-28497800-ef91-11e8-90f7-8a08adc937c6.png)
+
 Zwar erschienen die Karte nun an unterschiedlichen Orten trotzdem gab es ein Problem, denn an manchen puntken lagen zwei Karten übereinander, was dazu führte, dass andere Stellen wiederrum leer blieben. Schade, trotzdem ein weiterer Schritt in die richtige Richtung.
 
 Zudem schafften wir es in der Stunde einen Timer mithilfe einer Variable einzubauen, welcher während des Spiels aufzeigt, wie lange man schon spielt. Insgesamt also ein sehr produktiver Tag!
@@ -167,6 +169,8 @@ Das Projekt geht weiter und damit auch unser Problem mit dem Mix-Befehl, denn di
 Da wir so nicht weiterkommen entschieden wir uns dazu erstmal etwas anderes anzufangen, um vielleicht später eine neue Idee zu bekommen.
 
 Wir verbesserten unseren "Victory Screen" indem wir weitere Optionen, wie "Weiter spielen?" oder "Menü" visuell darstellten. Hinzukommt ein provisorische "Score" Anzeige, welche wir auch noch am Ende des Spiels einfügen möchten. Damit haben wir schon mal das Spiel und das dazugehörige Ende. 
+
+![unbenannt](https://user-images.githubusercontent.com/42579285/48963357-d7398400-ef90-11e8-84c3-17173b550042.png)
 
 Trotzdem fehlt uns noch ein Anfang oder auch Homescreen genannt, welcher dem Spieler noch mehr das Gefühl verleit, dass er ein echtes Memory Game im Online-Style spielt. Dies werden wir über das Wochenende in Anspruch nehmen und in der Woche daran weiterarbeiten, denn so langsam rückt der Abgabetermin in Griffweite (23.11).  
 
@@ -181,7 +185,9 @@ Des Weiteren haben wir zudem einen Startbildschirm hinzugefügt, welcher am Anfa
 
 Das haben wir in der für dieses Projekt vorgesehenen letzten Stunde geschafft. Wir sind noch nicht ganz fertig müssen zum Beispiel noch Musik einfügen und auch ein "Move Counter" ist vorgesehen. Dies steht jetzt noch für die letzten Tage an, ist aber im Vergleich zu dem, was wir schon geschafft haben sehr leicht.
 
-Damit sind 15 Stunden Informatik Unterricht vorbei und es ist Zeit sich an die projektseite zu setzen.
+![unbenannt](https://user-images.githubusercontent.com/42579285/48963394-90985980-ef91-11e8-9207-00fb958a97b5.png)
+
+Damit sind 15 Stunden Informatik Unterricht vorbei und es ist Zeit sich an die Projektseite zu setzen.
 
 
 
