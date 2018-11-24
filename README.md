@@ -110,11 +110,11 @@ Der Button selbst und der Hintergrund sollen logischerweise nicht mehr angezeigt
 #### Endbildschirm <a name="Endbildschirm"></a>
 
 Das Spielende, also wenn alle Paaren aufgedeckt wurden, soll einen Endbildschirm mit verschiedenen Fortfahrmöglichkeiten hervorrufen. Zuerst wird ein passendes Bild gebraucht, dass entweder im Internet gefunden oder selbst gestaltet werden kann, dass Anweisungen für den Fall, dass der Spieler weiterspielen oder zurück zum Menü möchte anzeigt. Dieses wird bei costumes eingefügt. Um ein eindeutiges Spielende festzustellen wird die Variable Victory angelegt, die sich bei jeder einzelnen Karten im Befehl change Victory by 1 unter der Bedingung des gefundenen Paares befindet. Somit ergibt sich bei Vollendung der Runde ein Wert von 20 für Victory. Im Script der Bühne muss nun ein neuer Block zusammengefügt werden, bestehend aus 
-when Victory = 20
-switch to costume Endbildschirm 
-show Variable Score 
-set Score to Punkte
-hide Variable Punkte
+when Victory = 20/
+switch to costume Endbildschirm/ 
+show Variable Score/ 
+set Score to Punkte/
+hide Variable Punkte.
 
 ![unbenannt](https://user-images.githubusercontent.com/42579285/48961798-cf211a80-ef77-11e8-92e0-d4163ec78c69.png)
 
