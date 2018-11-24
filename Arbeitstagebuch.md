@@ -60,14 +60,14 @@ Videos (https://www.youtube.com/watch?v=kSLnwUuE3Xg) inspirieren lassen. Daraufh
 
 Dabei sollte nicht auf den Sinn vom Spiel geschaut werden. Wir haben erstmal wild drauf los probiert, um uns so mit den einzelnen Blöcken und Möglichkeiten bekannt zu machen. Auch wenn der obige Screenshot keineswegs ein fertiges spiel zeigt, so gab es doch kleine Erfolge und erfahrungen, welche wir während des programmierens erfahren konnten.
 
-## 10.09.2018 ( Vierte Stunde) <a name="vier"></a> 
+## 10.09.2018 (Vierte Stunde) <a name="vier"></a> 
 
 In dieser Stunde haben wir angefange uns Gedanken über die Umsetzung unseres ersten richtigen Projekts zu machen.
 Wir einigten uns auf das Erstellen eines Memory Spiels. Hierfür legten wir Karten mit je zwei Costumes an. Diese habe ich (Teda) zu Hause zu Ende benannt und einheitlich sortiert, so dass es schonmal Ähnlickeiten mit einem Memory Spiel hat. Unser Ziel ist es dieses Spiel in den nächsten Wochen immer weiter vorranzutreiben.
 
 ![memory 1](https://user-images.githubusercontent.com/42579285/45362225-94dce980-b5d4-11e8-803c-cadf89b2fd39.png)
 
-## 11.09.2018 ( Fünfte Stunde) <a name="fünf"></a> 
+## 11.09.2018 (Fünfte Stunde) <a name="fünf"></a> 
 
 In der heutigen Doppelstunde haben wir unsere Projektarbeit weiter geführt. Dabei haben wir in snap uns mit "broadcast" und Variablen beschäftigt und versucht zwei Karten zu verbinden und diese, falls beide angeglickt werden, verschwinden zu lassen.
 
@@ -75,14 +75,14 @@ Dies habe ich (Leo) dann weiter geführt und auch die einzelnen Karten sortiert 
 
 ![funfte stunde](https://user-images.githubusercontent.com/42579285/45613469-ca675400-ba66-11e8-83f3-09087f8b7d5f.png)
 
-## 17.09.2018 (sechste Stunde) <a name="sechs"></a> 
+## 17.09.2018 (Sechste Stunde) <a name="sechs"></a> 
 
 Nachdem wir es geschafft haben ein Paar verschwinden zu lassen, haben wir in der heutigen Stunde versucht zwei falsche Karten wieder zurück zum Costume (Karte) zu ändern. Dies ist uns nicht ganz geglückt, so haben wir es nur geschafft eine Karte wieder zum aufgedeckten Zustand zu ändern.
 
 Zuhause habe ich (Teda) unsere Ergebnisse auf alle Karten übertragen. Außerdem haben wir beschlossen das bestimmte Fleißarbeitsaufgaben besser außerhalb des Unterrichts getätig werden, damit wir die einzelnen Informatikstunden für unsere Planung und unser weiteres Vorgehen nutzen können.  
 
 
-## 18.09.2018 (siebte Stunde) <a name="sieben"></a> 
+## 18.09.2018 (Siebte Stunde) <a name="sieben"></a> 
 
 In der heutigen Doppelstunde haben wir einen großen Schritt in die richtige Richtung gemacht!!
 Wir haben unseren bisherigen Plan überarbeitet und es geschafft zwei falsche Kartenkombinationen wieder zur Ursprungs Costume zu setzen. Dieses System müssen wir nun bei allen Karten anwenden. Damit hätten wir das rohe Spiel sozusagen geschafft.
@@ -93,14 +93,14 @@ Wir haben unseren bisherigen Plan überarbeitet und es geschafft zwei falsche Ka
 
 Trotzdem bleibt immer noch viel zu tun und wir haben uns auch einige Sachen aufgeschrieben, die wir nach den Ferien unbedingt noch bearbeiten müssen. Denn auch wenn wir das grobe System jetzt haben, ist es längst noch kein richtiges Memorie Spiel dafür fehlt einfach noch zu viel.
 
-## 22.10.2018 (achte Stunde) <a name="acht"></a> 
+## 22.10.2018 (Achte Stunde) <a name="acht"></a> 
 
 Die erste Informatik Stunde nach den Herbst Ferien habe ich (Leo), damit verbracht einen Plan zu erstellen, was wir noch bis zur Abgabe des Projektes schaffen müssen und könnten. Dabei habe ich mich entschieden zuerst ein Punktesystem für das Memory-Spiel zu programmieren. Daran habe ich mich auch in der heutigen Stunde gesetzt und werde dies in der nächsten Doppelstunde fortführen.
 
 ![image](https://user-images.githubusercontent.com/42579285/47363296-b30b2e80-d6d6-11e8-818e-fe43d689deca.png)
 
 
-## 23.10.2018 (neunte Stunde) <a name="neun"></a> 
+## 23.10.2018 (Neunte Stunde) <a name="neun"></a> 
 
 Die heutige Doppelstunde habe ich (Leo) damit verbracht, wie geplant das Punktesystem für zwei Karten zum laufen zu bringen. nach einigen Fehlversuchen ist es mir schlussendlich doch geglückt das Punktesystem fehlerfrei in unser Programm einzugliedern. Damit ist ein weiterer Schritt getan und es macht sehr viel spaß sich mit snap auseinanderzusetzen und dadurch etwas zu satnde zu bringen.
 
@@ -110,7 +110,7 @@ Außerdem habe ich einen "Victory-Screen" hintzugefügt, welcher am Ende des Spi
 ![unbenannt](https://user-images.githubusercontent.com/42579285/48963227-8b85db00-ef8e-11e8-898b-13b9e21bd6ff.png)
 
 
-## 29.10.2018 (zehnte Stunde) <a name="zehn"></a> 
+## 29.10.2018 (Zehnte Stunde) <a name="zehn"></a> 
 
 In dieser Stunde brachte Leo mich zuerst auf den neusten Stand und wir einigten uns vorläufig einen Einzelspieler Modus zu erstellen und änderten das zuvor herausgearbeitete Punktesystem daraufhin ab. diese Entscheidung tarfen wir deshalb, da wir erkannten, dass es zeitlich kritisch werden könnt noch einen Multiplayer zu programmieren. Außerdem war für uns der Einzelspieler Modus komplett ausreichend als erstes Projekt.
 
@@ -121,7 +121,7 @@ Außerdem haben wir eine Figur hinzugefügt, die je nachdem, ob ein Paar oder zw
 ![image](https://user-images.githubusercontent.com/42579285/47725526-04786800-dc59-11e8-9ae7-0ba46828f0a9.png)
 
 
-## 30.10.2018 (elfte Stunde) <a name="elf"></a> 
+## 30.10.2018 (Elfte Stunde) <a name="elf"></a> 
 
 Wie man auf dem zweiten Bild aus der letzten Stunde sehen kann, haben wir plötzlich Probleme mit Abläufen, die eigentlich seit mehreren Stunden problemlos funktioniert haben. Diese probieren wir zu lösen und gegebenfalls noch einen Timer einzubauen.
 
@@ -132,7 +132,7 @@ Dieses reagiert nämlich mit jedem Broadcast Befehl und somit auch mit dem, welc
 ![image](https://user-images.githubusercontent.com/42579285/47728450-ababce00-dc5e-11e8-9e5e-49491e0d5045.png)
 
 
-## 6.11.2018 (zwölfte Stunde) <a name="zwölf"></a> 
+## 6.11.2018 (Zwölfte Stunde) <a name="zwölf"></a> 
 
 Nachdem nun eine ganze Woche zwischen unserem bisher größten Problem liegt (siehe Stundenblock vom 30.10), wollen wir jetzt den nächsten Schritt wagen. Undzwar eine Misch- oder auch Mix-Befehl. Dieser Befehl soll unser Spiel noch realistischer erscheinen lassen, da auch beim normalen Memory nach der Beendigung eines Spiels neu gemischt wird. Außerdem wird das Spiel dadurch auch noch spannender, da man sich nun nicht mehr die Positionen der einzelnen karten merken kann.
 
@@ -149,7 +149,7 @@ Leider funktioniert der Mix Befehl noch nicht richtig, aber wir haben in der dop
 ![image](https://user-images.githubusercontent.com/42579285/48073636-76175f80-e1df-11e8-9426-ce14e2ceaed9.png)
 
 
-## 12.11.2018 (dreizehnte Stunde) <a name="dreizehn"></a> 
+## 12.11.2018 (Dreizehnte Stunde) <a name="dreizehn"></a> 
 
 Die Arbeit am Mix-Befehl geht weiter. Ich (Leo) habe viel zu Hause ausprobiert und schaffte den Befehl weiter zu verbessern. Unser Fehler von letzter Woche war es, dass alle Karten gleichzeitig versuchten sich eine Position auszusuchen und sich dabei gegenseitig blockierten, was dazu führte, dass keine Karte sich bewegte.
 
@@ -160,7 +160,7 @@ Zwar erschienen die Karte nun an unterschiedlichen Orten trotzdem gab es ein Pro
 Zudem schafften wir es in der Stunde einen Timer mithilfe einer Variable einzubauen, welcher während des Spiels aufzeigt, wie lange man schon spielt. Insgesamt also ein sehr produktiver Tag!
 
 
-## 13.11.2018 (vierzehnte Stunde) <a name="vierzehn"></a> 
+## 13.11.2018 (Vierzehnte Stunde) <a name="vierzehn"></a> 
 
 Das Projekt geht weiter und damit auch unser Problem mit dem Mix-Befehl, denn dieser scheint immer noch nicht zu funktionieren und uns ist auch keine neue Idee eingefallen, um das problem zu lösen.
 
@@ -171,7 +171,7 @@ Wir verbesserten unseren "Victory Screen" indem wir weitere Optionen, wie "Weite
 Trotzdem fehlt uns noch ein Anfang oder auch Homescreen genannt, welcher dem Spieler noch mehr das Gefühl verleit, dass er ein echtes Memory Game im Online-Style spielt. Dies werden wir über das Wochenende in Anspruch nehmen und in der Woche daran weiterarbeiten, denn so langsam rückt der Abgabetermin in Griffweite (23.11).  
 
 
-## 20.11.2018 (fünfzehnte Stunde) <a name="fünfzehn"></a> 
+## 20.11.2018 (Fünfzehnte Stunde) <a name="fünfzehn"></a> 
 
 Die letzte Informatikstunde vor der Projektabgabe steht an und es gibt noch einiges zu tun. Deshalb haben wir auch schon viel am Wochenende gemacht, um nicht zu viele Probleme mit der Zeit am Ende zu haben.
 
